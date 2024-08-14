@@ -20,3 +20,9 @@ class Notification:
     def get_timestamp(self):
         # Return when the notification was sent
         return self.timestamp
+
+    def info_notification(self):
+        # Print detailed information about the notification
+        print(f"Notification Type: {self.type}")
+        print(f"Content: {self.content}")
+        print(f"Timestamp: {self.timestamp}")

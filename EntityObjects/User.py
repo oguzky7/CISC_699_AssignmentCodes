@@ -4,7 +4,7 @@ class User:
     """
 
     def __init__(self, user_id, email):
-        # Initialize user with id and email
+        # Initialize user with ID and email
         self.__user_id = user_id
         self.email = email
 
@@ -15,3 +15,8 @@ class User:
     def get_email(self):
         # Return the user's email
         return self.email
+
+    def info_user(self):
+        # Print detailed information about the user
+        print(f"User ID: {self.__user_id}")
+        print(f"Email: {self.email}")

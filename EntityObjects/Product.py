@@ -22,9 +22,24 @@ class Product:
         return self.options
 
     def fetch_product_details(self):
-        # This would fetch product details, like price, from the web
+        # Fetch product details from the web (Placeholder logic)
         details = {
             'price': 'To be fetched',  # Placeholder
             'availability': 'To be checked'
         }
-        return details
+        if details:
+            self.print_product_details(details)
+        else:
+            self.no_details_found()
+
+    def print_product_details(self, details):
+        # Print out the product details
+        print(f"Product: {self.name}")
+        print(f"Price: {details.get('price')}")
+        print(f"Availability: {details.get('availability')}")
+        if self.options:
+            print(f"Options: {self.options}")
+
+    def no_details_found(self):
+        # Handle the case where no details are found
+        print("No product details found for the given URL.")
