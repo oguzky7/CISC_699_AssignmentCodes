@@ -30,12 +30,21 @@ Working Commands: Test commands
 
 !check_availability https://www.opentable.com/r/bar-spero-washington/ "September 20"
 
-!monitor_availability https://www.opentable.com/r/bar-spero-washington/ 
+!start_monitoring_availability https://www.opentable.com/r/bar-spero-washington/ 
 
-!monitor_availability https://www.opentable.com/r/bar-spero-washington/ "October 2"
+!start_monitoring_availability https://www.opentable.com/r/bar-spero-washington/ "October 2"
 
 !stop_monitoring_availability
 
+
+
+
+*********************************
+Working on it:
+
+!check_availability https://www.opentable.com/r/bar-spero-washington/ "August 22" "8:00 PM"
+
+*******************************************
 
 
 URLs to Test:
@@ -48,6 +57,8 @@ https://www.trendyol.com/puma/rebound-v6-low-p-736020132?boutiqueId=61&merchantI
 https://www.bestbuy.com/site/microsoft-xbox-wireless-controller-for-xbox-series-x-xbox-series-s-xbox-one-windows-devices-sky-cipher-special-edition/6584960.p?skuId=6584960
 
 https://www.google.com/
+
+https://www.opentable.com/r/hals-the-steakhouse-nashville
 
 
 Conclusion:
